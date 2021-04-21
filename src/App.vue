@@ -1,4 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <h1>Welcome to Your Vue.js App</h1>
+<!-- // app.vue will be on every webpage in Vue.js -->
+<HomePage />
 </template>
+<script>
+import HomePage from './pages/HomePage.vue'
+
+export default {
+  name: 'App',
+  components: {
+    HomePage
+  }
+}
+</script>
